@@ -35,7 +35,7 @@ void bubble_sort(int size, int arr[size]) {
 ### 4.Посмотрим как изменился `git status`
 В выводе команды `git status` можем заметить, что мы по-прежнему находимся в ветке *main*, в ней файлы *report.md* и *sort.c* были изменены, а также добавлены новые файлы в репозиторий *screenshots*, про которые Git еще ничего не знает.
 
-![Повторное выполнение команды git status](screenshots/Command_git_status2.png)
+![Повторное выполнение команды git status](screenshots/git_status2.png)
 
 ### 5.Добавим файл *sort.c* в состояние staged
 Для этого будем использовать команду `git add sort.c`
