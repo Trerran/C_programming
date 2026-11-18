@@ -16,7 +16,7 @@
 
 ### 3.Создадим файл sort.c и вставим в него функцию сортировки **Bubble Sort**.
 Функция сортировки **Bubble sort**:
-`c
+```c
 void bubble_sort(int size, int arr[size]) {
     for (int i = 0; i < size; i++) {
         for (int j = 0; j < size - i - 1; j++) {
@@ -28,7 +28,7 @@ void bubble_sort(int size, int arr[size]) {
         }
     }
 }
-`
+```
 
 ![Код Bubble Sort](screenshots/Bubble_sort.png)
 
@@ -92,7 +92,7 @@ void bubble_sort(int size, int arr[size]) {
 ![Состояние git log](screenshots/git_log.png)
 
 ### 16.Закоммитим все созданные файлы
-Для начала переведем все файлы в состояние **staged**, используя команду `git add .`, затем закоммитим командой `git commit .`
+Для начала переведем все файлы в состояние **staged**, используя команду `git add .`, затем закоммитим командой `git commit -m "Закоммитил первую часть отчета"`
 
 ![Закоммитил все файлы](screenshots/commit_all_files.png)
 
