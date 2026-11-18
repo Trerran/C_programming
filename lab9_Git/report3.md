@@ -30,8 +30,6 @@ void bubble_sort(int size, int arr[size]) {
 }
 ```
 
-![Код Bubble Sort](screenshots/Bubble_sort.png)
-
 ### 4.Посмотрим как изменился `git status`
 В выводе команды `git status` можем заметить, что мы по-прежнему находимся в ветке *main*, в ней файлы *report.md* и *sort.c* были изменены, а также добавлены новые файлы в репозиторий *screenshots*, про которые Git еще ничего не знает.
 
