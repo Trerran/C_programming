@@ -98,3 +98,6 @@ void bubble_sort(int size, int arr[size]) {
 
 ### 17.Запушим все файлы в удаленный репозиторий
 Используем команду `git push`
+
+![Запушил все файлы](screenshots/push_files.png)
+
