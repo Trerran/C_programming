@@ -23,7 +23,7 @@ int main(void){
 
 Теперь проверь, что выведет команда `git diff --staged`. Увидим, что изменения через команду `git add` не были добавлена, поэтомы вывод команды пустой.
 
-![Команда git diff staged](screenshots/git_diff_staged.png)
+![Команда git diff staged](screenshots/git_diff_stage.png)
 
 ### 5-7.Что выведут команды git diff и git diff --staged после добавления файла sort.c в состояние staged?
 С помощью команды `git add sort.c` добавим файл *sort.c* в состояние **staged**. Проверим вывод команды `git diff`: теперь он пустой, так как файл перешел из неиндексированного состояния в проиндексированное. Зато команда `git diff --staged` теперь непустая и показывает подготовленные к коммиту изменения в файле.
@@ -76,3 +76,67 @@ int main(void){
 ![Команда git status](screenshots/git_status5.png)
 
 ## Часть 2. Отчет на оценку 4 :memo:
+### 1.Создадим файл greeting.txt и закоммитим его
+Команды:
+```bash
+touch greeting.txt
+git add greeting.txt
+git commit greeting.txt -m "Add file greeting.txt"
+```
+
+![Создание файла greeting.txt](screenshots/create_file_greeting.png)
+
+### 2.Добавить в этот файл greeting.txt слово hello и закоммитим его
+Команды:
+```bash
+echo "hello" > greeting.txt
+git add greeting.txt
+git commit greeting.txt -m "Add content to greeting.txt"
+```
+
+![Добавление слова в файл greeting.txt](screenshots/new_content.png)
+
+### 3-4.Создадим новую ветку feature/uppercase и перейдем на нее
+Команды:
+```bash
+git branch feature/uppercase
+git switch feature/uppercase
+```
+
+![Новая ветка](screenshots/new_branch2.png)
+
+### 5.Вывод команды git status
+При создании новой ветки она наследовала текущее состояние коммитов и файлов ветки *mybranch*. Поскольку все изменения были закоммичены, в рабочей директории и индексе нет новых правок.
+
+![Команда git status](screenshots/git_status6.png)
+
+### 6-7.Добавим приветствие в файл greeting.txt
+Команды:
+```bash
+echo "HELLO" > greeting.txt
+git add greeting.txt
+git commit greeting.txt -m "Add content to greeting.txt"
+```
+
+### 8.Вывод команды git branch
+Увидим, что у нас есть три ветки: *main*, *mybranch*, *feature/uppercase*. Сейчас мы находимся на ветке *feature/uppercase*, она отмечена звездочкой `*`.
+
+![Команда git branch](screenshots/git_branch.png)
+
+### 9.Вывод команды git log --oneline --graph --all
+Увидим, что текущая ветка *feature/uppercase* находится на один коммит  впереди ветки mybranch, от которой она была создана. 
+
+![Команда git log --oneline --graph --all](screenshots/git_log2.png)
+
+### 10-11.Переключимся на главную ветку и посмотрим содержимое файла greetings.txt
+Ветка *main* ничего не знает о файле *greeting.txt*, так как он был создан в побочной ветке *mybranch*, а ветка *feature/uppercase* унаследовала его при ответвлении от *mybranch*.
+
+![Проверка содержания файла greetings.txt](screenshots/cat_greetings.png)
+
+### 12.Сравним ветки main и feature/uppercase
+Для этого будем использовать команду `git diff main feature/uppercase`.На скриншоте увидим разницу файлов в папке `lab9_Git` между веткой *main* и веткой *feature/uppercase*. Файл *file2.txt*  присутствует только в *main*, тогда как новые файлы *file1.txt* , *greeting.txt* существуют только в ветке *feature/uppercase*.
+
+![Сравнение веток](screenshots/git_diff_branches.png)
+
+### 13.Обьединим ветки main и feature/uppercase
+

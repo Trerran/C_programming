@@ -11,3 +11,13 @@ void bubble_sort(int size, int arr[size]) {
 }
 //Это одна из самых простых сортировок
 //В среднем и худшем случаях сложность алгоритма составляет O(n²)
+
+int main(void){
+    int a[]={4,2};
+    int s=3;
+    bubble_sort(s,a);
+    for (int i=0;i<s;i++){
+        printf("%d",a[i]);
+    }
+    return 0;
+}
