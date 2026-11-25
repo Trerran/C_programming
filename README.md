@@ -3,14 +3,14 @@
 ![Собака здоровается](gifs/dog-handshake-handshake-dog.gif)
 ![Собака на велосипеде](gifs/собака-dog.gif)
 
-## Оглавление
+## Table of contents
 
-- [Лаборатоная работа №1 Условные операторы и ввод с клавиатуры](https://github.com/Trerran/C_programming/tree/main/lab1_Conditional%20Statements%20and%20Keyboard%20Input)
-- [Лаборатоная работа №2 Циклы](https://github.com/Trerran/C_programming/tree/main/lab2_loops)
-- [Лаборатоная работа №3 Вложенные циклы](https://github.com/Trerran/C_programming/tree/main/lab3_Nested%20loops)
-- [Лаборатоная работа №4 Битовые операции](https://github.com/Trerran/C_programming/tree/main/lab4_Bitwise%20operations)
-- [Лаборатоная работа №5 Массивы](https://github.com/Trerran/C_programming/tree/main/lab5_Arrays)
-- [Лаборатоная работа №6 Матрицы](https://github.com/Trerran/C_programming/tree/main/lab6_Matrices)
-- [Лаборатоная работа №7 Строки](https://github.com/Trerran/C_programming/tree/main/lab7_Strings)
-- [Лаборатоная работа №8 Динамическая память](https://github.com/Trerran/C_programming/tree/main/lab8_Dynamic%20memory)
-- [Лаборатоная работа №9 Git](https://github.com/Trerran/C_programming/tree/main/lab9_Git)
+- [Laboratory Assignment №1: Conditional Statements and Keyboard Input](https://github.com/Trerran/C_programming/tree/main/lab1_Conditional%20Statements%20and%20Keyboard%20Input)
+- [Laboratory Assignment №2: Loops](https://github.com/Trerran/C_programming/tree/main/lab2_loops)
+- [Laboratory Assignment №3: Nested Loops](https://github.com/Trerran/C_programming/tree/main/lab3_Nested%20loops)
+- [Laboratory Assignment №4: Bitwise Operations](https://github.com/Trerran/C_programming/tree/main/lab4_Bitwise%20operations)
+- [Laboratory Assignment №5: Arrays](https://github.com/Trerran/C_programming/tree/main/lab5_Arrays)
+- [Laboratory Assignment №6: Matrices](https://github.com/Trerran/C_programming/tree/main/lab6_Matrices)
+- [Laboratory Assignment №7: Strings](https://github.com/Trerran/C_programming/tree/main/lab7_Strings)
+- [Laboratory Assignment №8: Dynamic Memory](https://github.com/Trerran/C_programming/tree/main/lab8_Dynamic%20memory)
+- [ЛLaboratory Assignment №9 Git](https://github.com/Trerran/C_programming/tree/main/lab9_Git)
