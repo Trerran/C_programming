@@ -13,4 +13,4 @@
 - [Laboratory Assignment №6: Matrices](https://github.com/Trerran/C_programming/tree/main/lab6_Matrices)
 - [Laboratory Assignment №7: Strings](https://github.com/Trerran/C_programming/tree/main/lab7_Strings)
 - [Laboratory Assignment №8: Dynamic Memory](https://github.com/Trerran/C_programming/tree/main/lab8_Dynamic%20memory)
-- [Laboratory Assignment №9 Git](https://github.com/Trerran/C_programming/tree/main/lab9_Git)
+- [Laboratory Assignment №9: Git](https://github.com/Trerran/C_programming/tree/main/lab9_Git)
